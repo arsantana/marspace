@@ -6,7 +6,8 @@
 
 body, html {
   height: 100%;
-  background-color: rgb(198, 183, 183);
+  background-color:rgb(75, 74, 73);
+  font-family: "Monserrat", sans-serif;
 }
 
 .navBar {
@@ -37,4 +38,34 @@ body, html {
   height: 80px;
   width: 80px;
   background-size: cover;
+}
+
+/* Rover Profile */
+.roverCard {
+  margin:20px;
+  padding: 20px;
+  background-color: rgb(101, 97, 97);
+  width: 300px;
+  box-shadow: 1px 0px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  color: rgb(255, 228, 228);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 25px;
+}
+
+.roverName {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+}
+
+.roverImage {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
