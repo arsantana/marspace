@@ -6,8 +6,17 @@
 
 body, html {
   height: 100%;
-  background-color:rgb(75, 74, 73);
+  background-color:rgb(24,25,26);
+  /* background-image: url(http://www.transparenttextures.com/patterns/concrete-wall-2.png); */
   font-family: "Monserrat", sans-serif;
+  color: rgb(255, 228, 228);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  flex: wrap;
 }
 
 .navBar {
@@ -43,29 +52,73 @@ body, html {
 /* Rover Profile */
 .roverCard {
   margin:20px;
-  padding: 20px;
-  background-color: rgb(101, 97, 97);
+  padding: 30px;
+  background-color: rgb(36,37,38);
   width: 300px;
   box-shadow: 1px 0px 15px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
-  color: rgb(255, 228, 228);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   line-height: 25px;
 }
 
 .roverName {
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-size: 32px;
 
 }
 
 .roverImage {
   height: 200px;
   width: 200px;
-  border: 1px solid black;
+  box-shadow: 2px 2px 15px rgb(0, 0, 0);
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+/* Cover Image */
+
+.roverCover {
+  padding: 10px;
+  background-color: rgb(36,37,38);
+  border-radius: 10px;
+  box-shadow: 1px 0px 15px rgba(0, 0, 0, 0.5);
+  height: 280px;
+}
+.roverCoverImg {
+  border-radius: 10px;
+  box-shadow: 1px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Rover Post */
+
+.roverPost {
+  background-color: rgb(36,37,38);
+  border-radius: 10px;
+  box-shadow: 1px 0px 15px rgba(0, 0, 0, 0.5);
+  width: 75%;
+  padding: 20px;
+}
+
+.roverPost-thumb {
+  border-radius: 500px;
+}
+
+.roverPost-details {
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+}
+
+.roverPost-info {
+  margin: 10px;
+}
+
+.roverPost-image {
+  width: 500px;
+}
+
